@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Professional Web Developer</title>
+
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family:'Segoe UI', sans-serif;
+    }
+
+    body{
+        background: linear-gradient(135deg, #0f172a, #1e293b);
+        color:white;
+        min-height:100vh;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+        padding:20px;
+    }
+
+    .hero{
+        max-width:800px;
+        animation: fadeIn 1.5s ease;
+    }
+
+    h1{
+        font-size:4rem;
+        font-weight:700;
+        background: linear-gradient(90deg,#38bdf8,#818cf8,#ec4899);
+        -webkit-background-clip:text;
+        -webkit-text-fill-color:transparent;
+        margin-bottom:15px;
+    }
+
+    h2{
+        font-size:2rem;
+        color:#cbd5e1;
+        margin-bottom:20px;
+    }
+
+    p{
+        font-size:1.1rem;
+        line-height:1.8;
+        color:#94a3b8;
+        margin-bottom:30px;
+    }
+
+    .btn{
+        display:inline-block;
+        padding:14px 35px;
+        background:linear-gradient(90deg,#38bdf8,#818cf8);
+        color:white;
+        text-decoration:none;
+        border-radius:50px;
+        font-weight:bold;
+        transition:0.3s;
+    }
+
+    .btn:hover{
+        transform:translateY(-5px);
+        box-shadow:0 10px 25px rgba(56,189,248,.4);
+    }
+
+    @keyframes fadeIn{
+        from{
+            opacity:0;
+            transform:translateY(30px);
+        }
+        to{
+            opacity:1;
+            transform:translateY(0);
+        }
+    }
+</style>
+</head>
+<body>
+
+<div class="hero">
+    <h1>Hi, I'm a Professional Web Developer</h1>
+
+    <h2>Creating Modern, Fast & Responsive Websites</h2>
+
+    <p>
+        I specialize in building stunning, user-friendly, and high-performance
+        websites using modern technologies. My focus is on creating digital
+        experiences that are visually appealing, fully responsive, and optimized
+        for success. Turning ideas into powerful web solutions is my passion.
+    </p>
+
+    <a href="#" class="btn">View My Portfolio</a>
+</div>
+
+</body>
+</html>
